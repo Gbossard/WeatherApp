@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string name="weather">Weather</string>
+
+    <string name="home_text">Appuyez sur le bouton pour afficher la météo</string>
+    <string name="home_button">Découvrir</string>
+
+    <string name="back_button">Retour</string>
+
+    <string name="loader_percentage">%1$d%%</string>
+    <string name="loader_message1">Nous téléchargeons les données…</string>
+    <string name="loader_message2">C’est presque fini…</string>
+    <string name="loader_message3">Plus que quelques secondes avant d’avoir le résultat…</string>
+    <string name="loader_failed_message">Erreur de chargement</string>
+    <string name="loader_failed_button">Réessayer</string>
+
+    <string name="degrees">\u00b0C</string>
+
+    <string name="start_again_button">Recommencer</string>
+</resources>
