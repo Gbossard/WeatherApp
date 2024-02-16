@@ -1,9 +1,7 @@
 package com.example.weatherapp.data
 
-import android.util.Log
 import com.example.weatherapp.model.WeatherCity
 import com.example.weatherapp.network.WeatherApiService
-import kotlinx.coroutines.delay
 
 interface WeatherRepository {
     suspend fun getWeatherParis(): WeatherCity

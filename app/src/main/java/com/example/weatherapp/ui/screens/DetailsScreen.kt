@@ -63,16 +63,6 @@ fun DetailsScreen(
         }
     }
 
-    if (weatherUiState is WeatherUiState.Success) {
-//        LaunchedEffect() {
-//            coroutineScope {
-//                launch {
-//
-//                }
-//            }
-//        }
-    }
-
     when(weatherUiState) {
         is WeatherUiState.Loading -> LoadingScreen(progressItem = progressItem, modifier = modifier.fillMaxSize())
         is WeatherUiState.Success -> WeatherList(weathers = weatherUiState.weather, onClick = {
